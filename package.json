@@ -1,6 +1,6 @@
 {
   "name": "react-pure-render-utils",
-  "version": "0.9.1",
+  "version": "0.9.2",
   "description": "A function, a component, decorators and a mixin for React pure rendering",
   "main": "lib/index.js",
   "repository": {

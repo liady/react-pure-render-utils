@@ -8,7 +8,7 @@ A function, a component, decorators and a mixin for React pure rendering.
 > This module is **directly based on** gaeron's [react-pure-render](https://github.com/gaearon/react-pure-render), adding decorators, tests and a high-order function.<br/>
 > All rights for the original module is [gaeron](http://github.com/gaearon)'s.
 
-This module provides *exactly* the same functionality as [PureRenderMixin](https://facebook.github.io/react/docs/pure-render-mixin.html), but as a standalone module and in three different flavors.
+This module provides *exactly* the same functionality as [PureRenderMixin](https://facebook.github.io/react/docs/pure-render-mixin.html), but as a standalone module and in five different flavors.
 
 ### Usage
 
