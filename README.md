@@ -77,7 +77,7 @@ export default class Button extends Component {
 #### High Order Function
 
 In version 0.14, React introduced [stateless components](https://medium.com/@joshblack/stateless-components-in-react-0-14-f9798f8b992d#.zbvj2eye3).
-This is a great way to write small components as stateless "pure" functions. However, there is no way to enforce "pure render" since they don't havev lifecycle hooks.
+This is a great way to write components as stateless "pure" functions. However, there is no way to enforce "pure render" since they don't have lifecycle hooks.<br/>
 Using this you can wrap your component in a "purify" high order function in order to guarantee pure render.
 
 ```js
