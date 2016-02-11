@@ -1,4 +1,4 @@
-# react-pure-render
+# react-pure-render-utils
 
 [![NPM Version](http://img.shields.io/npm/v/react-pure-render-utils.svg)](https://www.npmjs.org/package/react-pure-render-utils)
 [![Build Status](https://travis-ci.org/liady/react-pure-render-utils.svg?branch=master)](https://travis-ci.org/liady/react-pure-render-utils)
