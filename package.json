@@ -1,0 +1,42 @@
+{
+  "name": "react-pure-render-utils",
+  "version": "0.9.0",
+  "description": "A function, a component, decorators and a mixin for React pure rendering",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liady/react-pure-render-utils.git"
+  },
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "test": "mocha --compilers js:babel-core/register --colors ./test/*.spec.js",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "pure",
+    "render",
+    "shouldComponentUpdate",
+    "optimization",
+    "performance",
+    "mixin",
+    "stateless"
+  ],
+  "author": "Liad Yosef",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liady/react-pure-render-utils/issues"
+  },
+  "homepage": "https://github.com/liady/react-pure-render-utils",
+  "devDependencies": {
+    "babel-cli": "^6.5.1",
+    "babel-core": "^6.5.1",
+    "babel-eslint": "^4.1.6",
+    "babel-preset-es2015-loose": "^6.1.3",
+    "babel-preset-stage-0": "^6.3.13",
+    "chai": "^3.5.0",
+    "eslint": "^0.20.0",
+    "mocha": "^2.4.5",
+    "mockery": "^1.4.0"
+  }
+}
