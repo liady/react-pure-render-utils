@@ -1,4 +1,4 @@
-import pureStateless from '../lib/high-order';
+import pureStateless from '../high-order';
 import { toObj } from "./test-utils";
 import { expect } from 'chai';
 

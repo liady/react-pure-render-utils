@@ -1,14 +1,14 @@
 {
   "name": "react-pure-render-utils",
-  "version": "0.9.2",
+  "version": "0.9.3",
   "description": "A function, a component, decorators and a mixin for React pure rendering",
-  "main": "lib/index.js",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/liady/react-pure-render-utils.git"
   },
   "scripts": {
-    "build": "babel src --out-dir lib",
+    "build": "babel src --out-dir .",
     "test": "mocha --compilers js:babel-core/register --colors ./test/*.spec.js",
     "prepublish": "npm run build"
   },

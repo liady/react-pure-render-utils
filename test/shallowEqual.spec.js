@@ -1,4 +1,4 @@
-import shallowEqual from '../lib/shallowEqual';
+import shallowEqual from '../shallowEqual';
 import { toObj } from "./test-utils";
 import { expect } from 'chai';
 
